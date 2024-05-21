@@ -1,0 +1,2432 @@
+@font-face {
+  font-family: creepste;
+  src: url(../fonts/Creepste.ttf);
+  }
+  @font-face {
+    font-family: caveatbrush;
+    src: url(../fonts/caveatbrush.ttf);
+    }
+    @font-face {
+      font-family:  lobster;
+      src: url(../fonts/lobster.ttf);
+      }
+      @font-face {
+        font-family:  rubikdistressed;
+        src: url(../fonts/rubikdistressed.ttf);
+        }
+        @font-face {
+          font-family:  nosifer;
+          src: url(../fonts/nosifer.ttf);
+          }
+          @font-face {
+            font-family:  inknutAntiqua;
+            src: url(../fonts/inknutAntiqua.ttf);
+            }
+  
+
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    border: 0;
+}
+
+
+
+/*
+-----------------------------------------------------
+        -------THIS IS HEADER CSS-------
+-----------------------------------------------------
+*/
+
+
+
+.header-flexcontainer {
+    display: flex;
+    background-color:#133658;
+    justify-content: flex-end;
+    align-content: space-around;
+    padding-right: 20px;
+    box-sizing: border-box;
+    gap: 10px;
+    height: 40px;
+    padding-top: 7px;
+    gap: 1%;
+    padding-right:100px;
+  }
+  
+  .header-flexcontainer  div {
+   color:whitesmoke;
+    font-size: 9px;
+  }
+#header-flexcontainer-logo
+{
+    box-sizing: border-box;
+    width: auto;
+    height:20px;
+    padding-top: 5px;
+}
+ 
+
+
+/*
+-----------------------------------------------------
+        -------THIS IS HEADER QURIES CSS-------
+-----------------------------------------------------
+*/
+
+@media (min-width: 50px) 
+{
+  .header-flexcontainer {
+    background-color:#133658;
+    padding-right: 40px;
+    width: auto;
+    gap: 1%;
+  
+  }
+  
+.verticalLine {
+  border-left: 1px solid white;
+  height: 20px;
+  
+}
+}
+@media (min-width: 600px) 
+  {
+    .header-flexcontainer {
+        background-color: #133658;
+        width: auto;
+        padding-right: 4px;
+        gap: 2%;
+      
+      }
+      
+    .verticalLine {
+      border-left: 1px solid white;
+      height: 20px;
+      
+    }
+
+}
+  @media (min-width: 768px) 
+{ 
+.header-flexcontainer {
+    background-color: #133658;
+    width: auto;
+    padding-right: 40px;
+    gap: 2%;
+    padding-right:10px;
+  }
+  
+.verticalLine {
+  border-left: 1px solid white;
+  height: 20px;
+  
+}
+}
+
+@media (min-width:  1050px) 
+
+{
+.header-flexcontainer {
+  width: 100%;
+  background-color:#133658;
+  justify-content: flex-end;
+  gap: 1%;
+  padding-right:30px;
+}
+
+.header-flexcontainer  div {
+  font-size: 9px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.verticalLine {
+border-left: 1px solid white;
+height:20px;
+
+}
+}
+
+@media (min-width: 1280px) 
+
+{
+.header-flexcontainer {
+  width: auto;
+  background-color:#133658;
+  padding-right: 20px;
+  gap: 1%;
+
+}
+
+.header-flexcontainer  div {
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 9px;
+
+}
+
+.verticalLine {
+border-left: 1px solid white;
+height: 20px;
+
+}
+
+}
+  
+
+
+/*
+-----------------------------------------------------
+        -------THIS IS NAV CSS-------
+-----------------------------------------------------
+*/
+.nav-flexcontainer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  height: 70px;
+}
+
+
+.nav-div-listitems {
+  display: flex;
+  font-weight:bolder;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 10px;
+  
+}
+
+.nav-div-listitems img{
+    box-sizing: border-box;
+    width: auto;
+    height: 60px;
+    padding-bottom: 10px;
+}
+.nav-div-listitems a {
+  display: inline-block;
+  color:#133658;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-div-listitems a:hover {
+
+  background-color:#133658;
+  color: white;
+  font-family: caveatbrush;
+  border-radius: 20px;
+}
+.nav-div-listitems a.current{
+
+  background-color:#133658;
+  font-family: caveatbrush;
+  color: white;
+  border-radius: 20px;
+  
+}
+#navbtn{
+
+    background-color:crimson;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: small;
+    color: white;
+    width: 100%;
+    height: 10px;    
+    border: none;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+
+
+#navbtn:hover {
+    background-color:#133658;
+    color: white;
+    font-weight: bold;
+}
+
+/*
+-----------------------------------------------------
+   ----THIS IS NAV QURIES CSS----
+-----------------------------------------------------
+*/
+ @media (min-width:50px) 
+ {
+ .nav-div-listitems{
+  flex-direction: column;
+ }
+ .nav-flexcontainer{
+  height: 500px;
+ }
+ #navbtn{
+  width: 30%;  
+  margin: 0%;
+}
+ }
+ @media (min-width: 600px) 
+ {
+  #navbtn{
+
+    background-color:crimson;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: small;
+    color: white;
+    width: 100%;
+    height: 10px;    
+    border: none;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+  .nav-flexcontainer{
+    height: 70px;
+  }
+  .nav-div-listitems{
+    flex-direction: row;
+   }
+  .nav-div-listitems {
+    gap: 0px;
+    
+  }
+  .nav-div-listitems a {
+    text-align: start ;
+    padding-top: 14px;
+    text-decoration: none;
+    font-size: 7px;
+}
+#navbtn{  
+font-size: 6px;
+width: 60%;
+height: 4px;    
+}
+ }
+ @media (min-width: 768px) 
+ {
+     .nav-div-listitems {
+      gap: 5px;
+      
+    }
+    .nav-div-listitems a {
+      text-align: start ;
+      font-size: 12px;
+      padding-top: 14px;
+      text-decoration: none;
+ }
+ #navbtn{  
+  font-size: 8px;
+  width: 60%;
+  height: 1px;    
+}
+
+}
+ @media (min-width: 1050px) 
+ {
+  .nav-div-listitems {
+    gap: 20px;
+  }
+  .nav-div-listitems a {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 14px;
+  }
+  #navbtn{  
+    font-size: 10px;
+    width: 100%;
+    height: 3px;    
+  }
+ }
+ @media (min-width: 1280px) 
+ {
+  .nav-div-listitems {
+    gap: 20px;
+  }
+  .nav-div-listitems a {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 14px;
+  }
+  #navbtn{  
+    font-size: 10px;
+    width: 100%;
+    height: 3px;    
+  }
+ }
+ 
+
+/*
+-----------------------------------------------------
+        -------THIS IS MAIN CSS-------
+-----------------------------------------------------
+
+
+----- HERE DESCRIBES DIFFRENTS PAGES CSS ----------
+
+/*
+
+-----------------------------------------------------
+    -------THIS IS INDEX PAGE CSS-------
+-----------------------------------------------------
+*/
+#index-figure1{
+  padding: 0%;
+  margin: 0%;
+  border: 0;
+ 
+}
+#index-cover{
+  position:relative;
+  width: 100%;
+  height: 600px;
+}
+#index-figure1 h1{
+  position: absolute;
+  padding: 10px;
+  width: 50%;
+  font-size: 60px;
+  height: 100px;
+  font-family: inknutAntiqua;
+  top: 30%;
+  margin-left: 400px;
+  color:whitesmoke;
+}
+#index-div1{
+  margin: 60px;
+}
+#index-div1 h4 {
+  font-size: 30px;
+  color: #133658;
+}
+#index-div1 p {
+  font-size:20px;
+  color: rgb(89, 89, 89);
+}
+ mark{
+color: brown;
+border: none;
+background-color: white;
+}
+.index-grid-container1{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+.index-grid-container1 > div {
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 30px;
+}
+
+.index-grid-container1 >#item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 500px;
+}
+.index-grid-container1 >#item1 >img {
+  height: 500px;
+  width: auto;
+  border-radius: 30px;
+}
+.index-grid-container1 >#item2 >img {
+  height: 200px;
+  width: 100%;
+  border-radius: 30px;
+}
+.index-grid-container1 >#item3 >img {
+  height: 200px;
+  width: 100%;
+  border-radius: 30px;
+}
+.index-sec1 h4{
+  margin-left: 60px;
+  font-size: 30px;
+}
+.index-sec2{
+  height: 700px;
+  background-color: rgba(224, 223, 223, 0.614);
+}
+.index-grid-container2{
+
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .index-grid-container2 > div{
+    text-align: center;
+    padding: 20px;
+    width: auto;
+    font-size: 30px;
+    border-radius: 30px;
+  }
+  .index-grid-container2 >#item4 >img {
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .index-grid-container2 >#item5 >img {
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;
+  }
+  .index-grid-container2 >#item6 >img {
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;
+  }
+  .index-sec2 h4{
+    font-size: 30px;
+    margin-left: 400px;
+    color:#133658;
+  }
+  .index-sec2 p{
+    font-size:20px;
+    margin: 40px;
+   color: rgb(89, 89, 89);
+  }
+
+
+
+  #index-figure3{
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+   
+  }
+  #fig3{
+    position:relative;
+    width: 100%;
+    height: 600px;
+  }
+  #index-figure3 p{
+    position: absolute;
+    width: 50%;
+    font-size: 30px;
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 300px;
+    color:whitesmoke;
+    top: 2500px;
+  }
+  .index-sec3{
+    width: auto;
+    height: 600px;
+    background-color: rgba(224, 223, 223, 0.614);
+    display: flex;
+  }
+  .index-sec3 > img{
+    width: 50%;
+    margin: 90px;
+    border-radius: 30px;
+    height: 350px;
+  }
+  .index-sec3 > div{
+    height: 500px;
+    margin: 30px 0px 0px 50px;
+  }
+  .index-sec3 > div >h4{
+    font-size: 40px;
+  }
+  .index-sec3 > div >h5{
+    font-size: 20px;
+  }
+  .index-sec3 > div >p{
+    font-size: 15px;
+  }
+  
+
+/*
+
+-----------------------------------------------------
+    ----THIS IS INDEX PAGE QURIES CSS-------
+-----------------------------------------------------
+*/
+
+
+
+@media (min-width: 50px) 
+{
+  #index-figure1 >h1{
+    margin-left: 100px;
+    top: 100%;
+    font-size: 20px;
+    }
+
+    .index-grid-container1{
+      display: flex;
+      flex-direction: column;
+    }
+    .index-grid-container1 >#item1 >img {
+      width: 100%;
+    }
+    .index-grid-container2{
+      display: flex;
+      flex-direction: column;
+    }
+    .index-sec2{
+      height: 1600px;
+      border-radius: 30px;
+    }
+    .index-sec2 h4{
+      margin-left: 100px;
+    }
+    #index-figure3 p{
+      font-size: 20px;
+      margin-left: 100px;
+      top: 4800px;
+    }
+    .index-sec3{
+     flex-direction: column;
+     height: 800px;
+    }
+}
+@media (min-width: 600px) 
+{
+  #index-figure3 p{
+    font-size: 20px;
+    margin-left: 110px;
+    top: 2600px;
+  }
+  .index-sec2{
+    height: 700px;
+  }
+  .index-grid-container2{
+    display: grid;
+  }
+  .index-grid-container1{
+    display: grid;
+  }
+
+  #index-figure1 h1{
+    top: 30%;
+    width: 60%;
+    margin-left: 150Px;
+    font-size: 50px;
+    }
+    .index-grid-container1 >#item1 >img {
+      width: 110%;
+    }
+    .index-grid-container1{
+     
+      gap: 10px;
+      padding: 0px;
+    }
+    .index-sec2 h4{
+      margin-left: 150px;
+    }
+    .index-sec3{
+      height: 900px;
+      flex-direction: row;
+    }
+    .index-sec3 > img{
+      margin: 50px;
+    }
+}
+@media (min-width: 768px) 
+{
+  
+  .index-sec3 > img{
+    margin: 90px;
+  }
+  .index-sec3{
+    height: 800px;
+   flex-direction: row;
+  }
+  #index-figure3 p{
+    font-size: 30px;
+    margin-left: 100px;
+    top: 2500px;
+  }
+  .index-grid-container1{
+    gap: 10px;
+    padding: 10px;
+  }
+  .index-grid-container1 >#item1 >img {
+    width: auto;
+  }
+  #index-figure1 h1{
+    width: 60%;
+    margin-left: 100px;
+    font-size: 60px;
+    }
+    .index-grid-container1 >#item1 >img {
+      width: 100%;
+    }
+    .index-sec2 h4{
+      margin-left: 200px;
+    }
+}
+
+@media (min-width: 1050px) 
+{
+  .index-sec3{
+    height: 600px;
+  }
+  #index-figure3 p{
+    font-size: 30px;
+    margin-left: 300px;
+    top: 2500px;
+  }
+   #index-figure1 h1{
+    width: 50%;
+    margin-left: 300px;
+  }
+  .index-grid-container1 >#item1 >img {
+    width: 100%;
+  }
+  .index-sec2 h4{
+    margin-left: 450px;
+  }
+}
+@media (min-width: 1280px) 
+{
+  
+  #index-figure1 h1{
+  margin-left: 400px;
+  }
+  .index-grid-container1 >#item1 >img {
+    width: auto;
+  }
+}
+/*
+-----------------------------------------------------
+    -------THIS IS Things-to-do Page CSS-------
+-----------------------------------------------------
+*/
+#things-to-do-cover{
+  width: auto;
+  border-bottom-right-radius:100px;
+  background-color: rgb(150, 35, 58);
+  height: 500px;
+}
+#things-to-do-cover img{
+  position: relative;
+  border-bottom-right-radius:100px;
+  height: 500px;
+  width: 100%;
+}
+.div1-things-to-do > h5{
+font-size: 50px;
+margin-left: 200px;
+color: #133658;
+}
+.div1-things-to-do >p{
+font-size: 14px;
+color: rgb(135, 135, 135);
+}
+.sec1-things-to-do> h4{
+  font-size: 30px;
+  margin-left: 200px;
+  color: #133658;
+}
+.sec1-things-to-do >p{
+  font-size: 14px;
+color: rgb(135, 135, 135);
+}
+
+
+  /*
+-----------------------------------------------------
+    ----THIS IS  Things To Do PAGE QURIES CSS-------
+-----------------------------------------------------
+*/
+@media (min-width: 50px) 
+{
+  .sec1-things-to-do> h4{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .div1-things-to-do > h5{
+    font-size: 20px;
+    margin-left: 10px;
+    }
+}
+@media (min-width: 600px) 
+{
+  .sec1-things-to-do> h4{
+    font-size: 30px;
+    margin-left: 200px;
+  }
+  .div1-things-to-do > h5{
+    font-size: 50px;
+    margin-left: 200px;
+    } 
+}
+@media (min-width: 768px) 
+{
+
+}
+@media (min-width: 1050px) 
+{
+
+}
+@media (min-width: 1280px) 
+{
+
+}
+
+/*
+-----------------------------------------------------
+    -------THIS IS Areas To Stay Page CSS-------
+-----------------------------------------------------
+*/
+
+#areas-to-stay-cover{
+  width: auto;
+  border-bottom-right-radius:100px;
+  background-color: rgb(150, 35, 58);
+  height: 500px;
+}
+#areas-to-stay-cover img{
+  position: relative;
+  border-bottom-right-radius:100px;
+  height: 500px;
+  width: 100%;
+}
+.areas-to-stay-sec1{
+  display: flex;
+  flex-direction: row;
+}
+.areas-to-stay-sec1 > div > h2{
+font-size: 50px;
+color:#133658;
+}
+.areas-to-stay-sec1 > div  {
+width: 50%;
+  }
+.areas-to-stay-sec1 > div > p{
+  font-size: 16px;
+  width: 50%;
+  margin-left: 250px;
+  }
+  
+  .areas-to-stay-sec1 > div > img{
+    width: 90%;
+    }
+    
+    .areas-to-stay-grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      background-color:#133658 ;
+      gap: 10px;
+    
+    }
+    
+    .areas-to-stay-grid-container > div {
+    
+      width: 43%;
+      text-align: center;
+      font-size: 30px;
+    }
+    .areas-to-stay-grid-container > div > img{
+      height: 400px;
+      width: auto;
+      border-radius: 30px;
+    }
+    .areas-to-stay-sec2 > h4{
+      color: #133658;
+      padding-left: 50px;
+      font-size: 30px;
+    }
+    .areas-to-stay-sec2 > p{
+      padding-left: 50px;
+      font-weight: bold;
+      
+      font-size: 20px;
+    }
+    .areas-to-stay-sec3 > h4{
+      color: #133658;
+      padding-left: 50px;
+      font-size: 30px;
+    }
+    .areas-to-stay-sec3 > p{
+      padding-left: 50px;
+      font-weight: bold;
+      
+      font-size: 20px;
+    }
+
+
+    /*
+-----------------------------------------------------
+    ----THIS IS  Areas To Stay PAGE QURIES CSS-------
+-----------------------------------------------------
+*/
+
+
+@media (min-width: 50px) 
+{
+  .areas-to-stay-sec1{
+  
+    flex-direction: column;
+  }
+  .areas-to-stay-sec1 > div > h2{
+    font-size: 20px;
+    }
+  .areas-to-stay-sec1 > div > p{
+      margin-left: 120px;
+      }
+}
+@media (min-width: 600px) 
+{
+  .areas-to-stay-sec1{
+    flex-direction: row;
+  }
+  .areas-to-stay-sec1 > div > h2{
+    font-size: 20px;
+    }
+  .areas-to-stay-sec1 > div > p{
+      margin-left: 120px;
+      }
+}
+@media (min-width: 768px) 
+{ 
+.areas-to-stay-sec1 > div > h2{
+  font-size: 30px;
+  }
+.areas-to-stay-sec1 > div > p{
+    margin-left: 100px;
+    }
+
+}
+@media (min-width: 1050px) 
+{
+  .areas-to-stay-sec1 > div > h2{
+    font-size: 40px;
+    }
+    .areas-to-stay-sec1 > div > p{
+      margin-left: 200px;
+      }
+}
+@media (min-width: 1280px) 
+{
+.areas-to-stay-sec1 > div > h2{
+font-size: 50px;
+}
+.areas-to-stay-sec1 > div > p{
+  margin-left: 250px;
+  }
+}
+
+    /*
+-----------------------------------------------------
+    ----THIS IS  Place To go PAGE QURIES CSS-------
+-----------------------------------------------------
+*/
+#place-to-go-cover{
+  width: auto;
+  border-bottom-right-radius:100px;
+  background-color: rgb(150, 35, 58);
+  height: 500px;
+}
+#place-to-go-cover img{
+  position: relative;
+  border-bottom-right-radius:100px;
+  height: 500px;
+  width: 100%;
+}
+.place-to-go-sec1{
+  position: absolute; 
+  top: 40%;
+  padding-top: 30px;
+  color: white;
+}
+.place-to-go-sec1 > h3{
+  font-size: 60px;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+.place-to-go-sec1 > p{
+  font-size: 20px;
+  padding-left: 50px;
+}
+.place-to-go-sec1> div >p{
+  font-size: 15px;
+  padding-bottom: 40px;
+  padding-top:3px;
+  margin: 0%;
+  border: 0;
+}
+.place-to-go-sec1> div>a{
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+.place-to-go-sec1> div{
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  padding-left: 50px;
+}
+.place-to-go-sec2>div> h3{
+font-size: 30px;
+color: #133658;
+text-align: center;
+}
+.place-to-go-sec2 > div>img{
+  border-radius: 30px;
+  margin: 20px;
+  width: auto;
+}
+.place-to-go-sec2>div>p{
+font-size: 20px;
+text-align: justify;
+margin-right: 20px;
+}
+.place-to-go-sec3 img{
+  width: 100%;
+  height: 900px;
+}
+.place-to-go-sec3 p{
+font-size: 20px;
+text-align: justify;
+margin-right: 20px;
+}
+.grid-container-place-to-go {
+  display: grid;
+  height:700px;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-container-place-to-go > div {
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container-place-to-go > div >img{
+  width: 100%;
+  height: 300px;
+}
+/*
+
+
+-----------------------------------------------------
+    ----THIS IS  Place To Go PAGE QURIES CSS-------
+-----------------------------------------------------
+*/
+
+
+@media (min-width: 50px) 
+{
+
+  .place-to-go-sec1{
+    top: 70%;
+    padding-top: 20px;
+  }
+  .place-to-go-sec2 > div>img{
+    width: 80%;
+  }
+ 
+}
+@media (min-width: 600px) 
+{
+ 
+ 
+  .place-to-go-sec1{
+    top: 20%;
+    padding-top: 20px;
+  }
+  .place-to-go-sec2 > div>img{
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) 
+{
+  .place-to-go-sec2 > div>img{
+    width: 80%;
+  }
+}
+@media (min-width: 1050px) 
+{
+  .place-to-go-sec2 > div>img{
+    width: 80%;
+  }
+
+}
+@media (min-width: 1280px) 
+{
+  .place-to-go-sec2 > div>img{
+    width: auto;
+  }
+}
+
+/*
+-----------------------------------------------------
+    -------THIS IS research Page CSS-------
+-----------------------------------------------------
+*/
+#research-cover{
+  width: auto;
+  border-bottom-right-radius:100px;
+  background-color: rgb(150, 35, 58);
+  height: 500px;
+}
+#research-cover img{
+  border-bottom-right-radius:100px;
+  height: 500px;
+  width: 100%;
+}
+.div-research{
+  width: 50%;
+  height: 500px;
+  margin-left: 300px;
+}
+.div-research>img{
+  width: 100%;
+  height: 300px;
+  border-radius: 30px;
+
+}
+.sec1-research{
+  height: 1000px;
+background-color: rgb(201, 200, 200);
+}
+#research-cover1{
+  width: auto;
+  border-bottom-right-radius:100px;
+  background-color: rgb(150, 35, 58);
+  height: 500px;
+}
+#research-cover1 img{
+  border-bottom-right-radius:100px;
+  height: 500px;
+  width: 100%;
+}
+.sec2-research{
+  height: 1000px;
+background-color:white;
+}
+.sec3-research{
+  height: 1000px;
+background-color:rgb(201, 200, 200);
+}
+#research-cover2{
+  width: auto;
+  border-bottom-right-radius:100px;
+  background-color: rgb(150, 35, 58);
+  height: 500px;
+}
+#research-cover2 img{
+  border-bottom-right-radius:100px;
+  height: 500px;
+  width: 100%;
+}
+
+/*
+-----------------------------------------------------
+    -------THIS IS Media Quries Research Page CSS-------
+-----------------------------------------------------
+*/
+@media (min-width: 50px) 
+{
+  .div-research{
+    width: 50%;
+    height: 500px;
+    margin-left: 100px;
+  }
+  .div-research>img{
+    height: 200px;  
+  
+  }
+
+}
+@media (min-width: 600px) 
+{
+ 
+  .div-research>img{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+  
+  }
+  .div-research{
+    width: 50%;
+    height: 500px;
+    margin-left: 300px;
+  }
+}
+@media (min-width: 768px) 
+{
+
+}
+@media (min-width: 1050px) 
+{
+
+}
+@media (min-width: 1280px) 
+{
+
+}
+/*
+-----------------------------------------------------
+    -------THIS IS Events Page CSS-------
+-----------------------------------------------------
+*/
+#events-cover{
+  width: auto;
+  border-bottom-right-radius:100px;
+  background-color: rgb(150, 35, 58);
+  height: 500px;
+}
+#events-cover img{
+  position: relative;
+  border-bottom-right-radius:100px;
+  height: 500px;
+  width: 100%;
+}
+.events-sec1{
+  position: absolute; 
+  top: 40%;
+  padding-top: 30px;
+  color: white;
+}
+.events-sec1 > h3{
+  font-size: 60px;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+.events-sec1 > p{
+  font-size: 20px;
+  padding-left: 50px;
+}
+.events-sec1> div >p{
+  font-size: 15px;
+  padding-bottom: 40px;
+  padding-top:3px;
+  margin: 0%;
+  border: 0;
+}
+.events-sec1> div>a{
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+.events-sec1> div{
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  padding-left: 50px;
+}
+.evets-fig1{
+  display: flex;
+  background-color: rgba(224, 223, 223, 0.614);
+  flex-direction: row;
+  margin: 0%;
+  gap: 2%;
+}
+.evets-fig1 > img{
+  width: 50%;
+}
+.evets-fig1 >p{
+  line-height: 2.0;
+  color: #133658;
+  font-size: 12px;
+  text-align: justify;
+}
+.events-sec2 > h4{
+  color: #133658;
+  padding-left: 50px;
+  font-size: 30px;
+}
+.events-sec2 > p{
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*
+-----------------------------------------------------
+    ----THIS IS  Events PAGE QURIES CSS-------
+-----------------------------------------------------
+*/
+@media (min-width: 50px) 
+{
+  .evets-fig1 > img{
+    width: 100%;
+    border-radius: 30px;
+  }
+  .events-sec1{
+    top: 60%;
+    padding-top: 20px;
+  }
+  .evets-fig1{
+    flex-direction: column;   
+  }
+}
+@media (min-width: 600px) 
+{
+  .evets-fig1 > img{
+    width: 50%;
+  }
+  .evets-fig1{
+    flex-direction: row;   
+  }
+  .events-sec1{
+    top: 20%;
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 768px) 
+{
+ 
+}
+@media (min-width: 1050px) 
+{
+ 
+}
+@media (min-width: 1280px) 
+{
+  
+}
+/*
+-----------------------------------------------------
+    -------THIS IS INFORMATION Page CSS-------
+-----------------------------------------------------
+*/
+.info-sec1{
+  width: auto;
+  height: 350px;
+  background-color:rgb(214, 113, 113);
+  border-bottom-right-radius:100px;
+  color: whitesmoke;
+}
+.info-sec1 > h3{
+  font-size: 60px;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+.info-sec1 > p{
+  font-size: 20px;
+  padding-left: 50px;
+}
+.info-sec1> div{
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  padding-left: 50px;
+}
+.info-sec1> div >p{
+  font-size: 15px;
+  padding-bottom: 40px;
+  padding-top:3px;
+  margin: 0%;
+  border: 0;
+}
+.info-sec1> div>a{
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+.info-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgba(224, 223, 223, 0.614) ;
+  gap: 10px;
+
+}
+
+.info-grid-container > div {
+
+  width: 43%;
+  text-align: center;
+  font-size: 30px;
+}
+.info-grid-container > div > img{
+  height: 400px;
+  width: auto;
+  border-radius: 30px;
+}
+.info-sec2 > h4{
+  color: #133658;
+  padding-left: 50px;
+  font-size: 30px;
+}
+.info-sec2 > p{
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.info-p{
+  text-align: justify;
+  font-size: 16px; 
+  font-weight: bold;
+}
+
+.info-sec3 > h4{
+  color: #133658;
+  padding-left: 50px;
+  font-size: 30px;
+}
+.info-sec3 > p{
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.info-sec4 > h4{
+  color: #133658;
+  padding-left: 50px;
+  font-size: 30px;
+}
+.info-sec4 > p{
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*
+-----------------------------------------------------
+    ----THIS IS INFORMATION PAGE QURIES CSS-------
+-----------------------------------------------------
+*/
+
+@media (min-width: 50px) 
+{
+  .info-sec1{
+    height: 500px;
+  }
+  .info-sec1 > h3{
+font-size: 40px;
+  }
+  .info-grid-container {
+    display: flex;
+   flex-direction: column;
+  
+  }
+  .info-grid-container > div > img{
+    height: 300px;
+  }
+}
+@media (min-width: 600px) 
+{
+  .info-sec1 > h3{
+    font-size: 60px;
+  }
+
+  .info-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+  }
+  .info-sec1{
+    height: 400px;
+  }
+  .info-grid-container > div > img{
+    height: 200px;
+  }
+}
+@media (min-width: 768px) 
+{
+  .info-sec1{
+    height: 350px;
+  }
+  .info-grid-container > div > img{
+    height: 200px;
+   
+  }
+}
+@media (min-width: 1050px) 
+{
+  .info-grid-container > div > img{
+    height: 300px;
+ 
+  }
+}
+@media (min-width: 1280px) 
+{
+  .info-grid-container > div > img{
+    height: 400px;
+    
+  }
+}
+
+/*
+-----------------------------------------------------
+    -------THIS IS Contact us Page CSS-------
+-----------------------------------------------------
+*/
+
+#contact-pg-img{
+    width: 100%;
+    height: 400px;
+}
+#img-section-contact{
+    width: auto;
+    height: 400PX;
+}
+
+.main-div-contact-page{
+    display: flex;
+    flex-direction: row;
+}
+.section1-contact-pg{
+    width: 50%;
+    height: 600px;
+    color:rgb(177, 54, 54);
+    background-color: rgb(240, 240, 240);
+}
+.section1-contact-pg #p{
+    padding-left: 50px;
+    font-family: lobster;
+    padding-top: 100px;
+    color:#133658;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.section1-contact-pg #p1{
+    padding-left: 50px;
+    color: #133658;
+
+}
+.section1-contact-pg #p2{
+    padding-left: 50px;
+    color:rgb(122, 122, 122);
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.section1-contact-pg #p3{
+    color:#133658;
+    height: 70px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    background-color: white;
+    width: 70%;
+    margin-left: 50px;
+}
+.section1-contact-pg #p4{
+    padding-left: 50px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.section1-contact-pg #p5{
+    padding-left: 50px;
+    color: #133658; 
+}
+.section1-contact-pg #p6{
+    padding-left: 50px;
+    color:rgb(122, 122, 122);
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section1-contact-pg #p7{
+    padding-left: 50px;
+    color: #133658; 
+}
+.section1-contact-pg #p8{
+    padding-left: 50px;
+    color:rgb(122, 122, 122);
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.section2-contact-pg{
+    width: 60%;
+    height: 600px;
+    background-color:white;
+}
+
+.contact-form{
+  background-color: rgba(198, 142, 142, 0.523);
+  width: 40%;
+  margin-left: 200px;
+  height: 550px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.contact-form input{
+  box-sizing: border-box;
+  padding-top: 10px;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+
+}
+.Form-contact-main{
+  padding: 15px;
+}
+.contact-form p{
+    font-family:caveatbrush;
+    color: white  ;
+}
+.contact-form label{
+  font-family:caveatbrush;
+}
+#submit-contact{
+  background-color:whitesmoke;
+  border-radius: 30px;
+  border: none;
+  margin-top: 10px;
+  margin-left: 20px;
+  height: 30px;
+  background-color: #fbfbfbea;
+  color:#133658;
+  width: 40%;
+}
+#resetbtn{
+  background-color:whitesmoke;
+  border-radius: 30px;
+  border: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 30px;
+  background-color: #fbfbfbea;
+  color:#133658;
+  width: 40%;
+
+}
+
+/*
+-----------------------------------------------------
+    ----THIS IS CONTACT US PAGE QURIES CSS-------
+-----------------------------------------------------
+*/
+
+
+
+@media (min-width: 50px) 
+{
+  .main-div-contact-page{
+    display: flex;
+    flex-direction: column;
+}
+.section1-contact-pg{
+  height:750px;
+  width: auto;
+
+}
+.section2-contact-pg{
+  height: 700px;
+  width: auto;
+}
+.section1-contact-pg #p3{
+  height: 100px;
+}
+.contact-form{
+  width: 90%;
+  margin-left: 20px;
+  height: 550px;
+  margin-top:70px;
+}
+}
+@media (min-width: 600px) 
+{
+  .main-div-contact-page{
+    display: flex;
+    flex-direction: row;
+}
+  .section1-contact-pg{
+    height:700px;
+    width: 70%;
+  }
+  .section2-contact-pg{
+    height: 700px;
+    width: 60%;
+  }
+  .section1-contact-pg #p3{
+    height: 90px;
+}
+.contact-form{
+  width: 80%;
+  margin-left: 20px;
+  height: 550px;
+  margin-top:70px;
+}
+}
+@media (min-width: 768px) 
+{
+  .section1-contact-pg{
+    height:700px;
+    width: 50%;
+  }
+  .section2-contact-pg{
+    height: 700px;
+  }
+  .section1-contact-pg #p3{
+    height: 80px;
+}
+.contact-form{
+  width: 70%;
+  margin-left: 50px;
+  height: 550px;
+  margin-top:70px;
+}
+}
+
+@media (min-width: 1050px) 
+{
+  .section1-contact-pg #p3{
+    height: 70px;
+}
+
+  .section1-contact-pg{
+    height:600px;
+    width: 50%;
+  }
+  .section2-contact-pg{
+    height: 600px;
+  }
+  .contact-form{
+    width: 60%;
+    margin-left: 100px;
+    height: 550px;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 1280px) 
+{
+  .contact-form{
+    width: 40%;
+    margin-left: 200px;
+    height: 550px;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+}
+/*
+-----------------------------------------------------
+  -------THIS IS terms & conditions Page CSS-------
+-----------------------------------------------------
+*/
+
+#term-and-condition-div1{
+font-size:58px;
+text-align: center;
+font-family:creepste;
+color: black;
+font-style: italic;
+padding: 0px;
+margin: 0px;
+border: 0px;
+}
+#term-and-condition-div2{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: caveatbrush;
+    border: 0px;
+}
+#term-and-condition-div2 a {
+  display: inline-block;
+  color:#133658;
+  text-align: center;
+  text-decoration: none;
+}
+#term-and-condition-div2 a:hover {
+
+    background-color:#133658;
+    color: white;
+    font-weight: bold;
+  }
+#term-and-condition-div3{
+    font-size: 42px;
+    color:#133658;
+    font-family: caveatbrush;
+    text-align: center;
+  }
+  #term-and-condition-div4{
+    text-align: justify;
+   margin-left: 50px;
+   margin-right: 20px;
+  font-size: 16px;
+  color: rgb(125, 125, 125);
+ 
+  }
+  #term-and-condition-div5{
+    margin-left: 50px;
+    font-family:creepste;
+    font-family: caveatbrush;
+    font-size:50px ;
+  }
+  #term-and-condition-div6{
+    margin-left: 50px;
+    font-family: caveatbrush;
+    font-size:30px ;
+    color:rgb(125, 125, 125) ;
+  }
+  #term-and-condition-div7{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 20px;
+   font-size: 16px;
+   color: rgb(125, 125, 125);
+  }
+
+  /*
+-----------------------------------------------------
+    ----THIS IS TERM & CONDITION QURIES CSS-------
+-----------------------------------------------------
+*/
+
+  @media (min-width: 50px) 
+{
+  #term-and-condition-div1{
+    font-size:20px;
+  }
+  #term-and-condition-div5{
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 600px) 
+{
+  #term-and-condition-div1{
+    font-size:58px;
+  }
+  #term-and-condition-div5{
+    font-size: 50px;
+  }
+}
+
+
+
+/*
+-----------------------------------------------------------
+  --THIS IS (Signin Sub-Folder)Become A Member Page CSS--
+-----------------------------------------------------------
+*/
+
+
+#login-cover{
+  width: auto;
+  height: 700px;
+}
+#login-cover img{
+  position: relative;
+  height: 700px;
+  width: 100%;
+}
+.signin{
+  position: absolute; 
+  width: 20%;
+  border-radius: 50px;
+  top: 40%;
+  margin-left: 400px;
+  padding-left: 20px;
+  height: 400px;
+  padding-top: 30px;
+  padding-right: 20px;
+  background-color: rgba(89, 86, 86, 0.747); 
+  font-family: caveatbrush;
+  color: rgba(229, 226, 226, 0.954);
+}
+.signin-form-div input{
+  box-sizing: border-box;
+  padding-top: 10px;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+
+}
+.signin-form-div button{
+  border-radius: 30px;
+  margin-top: 20px;
+  height: 30px;
+ background-color: #41668b9a;
+ color: white;
+  width: 45%;
+  display: inline;
+}
+#become-member{
+    text-decoration: none;
+    color: #133658; 
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: whitesmoke;
+   }
+   #become-member:hover{
+     background-color:#133658;
+     color: whitesmoke;
+     border-radius: 20px;
+     font-size: 14px;
+     font-weight: bolder;
+       border: none;
+   }
+
+/*
+-----------------------------------------------------------
+  --login page media quries--
+-----------------------------------------------------------
+*/
+
+
+
+@media (min-width: 50px) 
+{
+  
+    .signin{
+      margin-left: 30px;
+      width: 60%;
+      padding-left: 20px;
+      height: 400px;
+      top: 90%;
+      padding-right: 2px;
+    }
+}
+@media (min-width: 600px) 
+{
+  .signin{
+    margin-left: 100px;
+    width: 50%;
+    padding-left: 20px;
+    height: 400px;
+   top: 20%;
+    padding-right: 2px;
+  }
+}
+@media (min-width: 768px) 
+{
+  
+    .signin{
+      margin-left: 200px;
+      width: 40%;
+      padding-left: 20px;
+      height: 400px;
+      top: 20%;
+      padding-right: 20px;
+    }
+}
+@media (min-width: 1050px) 
+{
+  .signin{
+    margin-left: 300px;
+    width: 35%;
+    padding-left: 20px;
+    height: 400px;
+    top: 20%;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 1250px) 
+{
+  .signin{
+    margin-left: 400px;
+    width: 30%;
+    padding-left: 20px;
+    height: 350px;
+    top: 25%;
+    padding-right: 20px;
+  }
+}
+
+/*
+-----------------------------------------------------------
+  --THIS IS Become A Member Page CSS--
+-----------------------------------------------------------
+*/
+
+#member-bgpic{
+  width: 100%;
+  height: 800px;
+
+}
+.member-main-div{
+  position: relative;
+  width: auto;
+}
+
+.signin-form-memberpg{
+  position: absolute; 
+  padding: 10px;
+  width: 30%;
+  height: 500px;
+  border-radius: 50px;
+  top: 40%;
+  background-color: rgba(196, 194, 194, 0.833); 
+  font-family: caveatbrush;
+  margin-left: 400px;
+  color: rgba(249, 95, 95, 0.909);
+ 
+}
+.joining-form input{
+  box-sizing: border-box;
+  padding-top: 10px;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+
+}
+.joining-form p{
+  font-family:caveatbrush;
+  color: #133658  ;
+}
+#top-head-for-memberpg{
+  position: absolute; 
+  border-radius: 50px;
+  top: 20%;
+  font-size: 40px;
+  font-family:rubikdistressed ;
+  color: white;
+  margin-left: 300px;
+}
+#submit-joining{
+margin-top: 20px;
+margin-left: 60px;
+margin-bottom: 10px;
+background-color: #d1d2d2f6;
+border-radius: 30px;
+color: white;
+width: 30%;
+}
+#resetbtn1{
+margin-top: 20px;
+margin-left: 40px;
+margin-bottom: 10px;
+background-color: #d1d2d2f6;
+border-radius: 30px;
+color: white;
+width: 30%;
+}
+
+#loging-joining {
+ text-decoration: none;
+ color: #133658;
+ padding-left: 40px;
+ padding-right: 40px;
+ border-radius: 10px;
+ width: 100px;
+ background-color: whitesmoke;
+
+}
+#loging-joining:hover{
+  background-color:#133658;
+  color: whitesmoke;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bolder;
+    border: none;
+}
+#p-of-memberpg{
+  display: inline;
+}
+/*
+-----------------------------------------------------
+        -------MEDIA QUREY OF BECAME A MEMBER-------
+-----------------------------------------------------
+*/
+
+@media (min-width: 50px) 
+{
+  .signin-form-memberpg{
+    width: 60%;
+    height: 500px;
+    top: 80%;
+    margin-left: 50px;
+  }
+  #top-head-for-memberpg{
+    font-size: 18px;
+    top: 50%;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 600px) 
+{
+  .signin-form-memberpg{
+    width: 60%;
+    height: 500px;
+    top: 30%;
+    margin-left: 100px;
+  }
+  #top-head-for-memberpg{
+    font-size: 26px;
+    margin-left: 100px;
+    top: 20%;
+  } 
+}
+@media (min-width: 768px) 
+{
+  .signin-form-memberpg{
+    width: 40%;
+    height: 500px;
+    top: 30%;
+    margin-left: 250px;
+  }
+  #top-head-for-memberpg{
+    font-size: 30px;
+    top: 15%;
+    margin-left: 150px;
+  }
+}
+@media (min-width: 1050px) 
+{
+  .signin-form-memberpg{
+    width: 30%;
+    height: 500px;
+    top:30%;
+    margin-left: 400px;
+  }
+  #top-head-for-memberpg{
+    font-size: 40px;
+    top: 15%;
+    margin-left: 300px;
+  }
+}
+@media (min-width: 1280px) 
+{
+ 
+}
+
+
+/*
+-----------------------------------------------------
+        -------THIS IS FOOTER CSS-------
+-----------------------------------------------------
+*/
+
+.footer-flexcontainer{
+    display: flex;
+    background-color:#133658;
+    justify-content: flex-start;
+    align-content:space-around;
+    box-sizing: border-box;
+    gap: 5%;
+}
+.footer-div-listitems1{
+display: flex;
+margin-top: 50px;
+color:grey;
+padding-left: 50px;
+
+}
+.footer-div-listitems1-1{
+    display: flex;
+    padding-left: 50px;
+    }
+.footer-div-listitems1 img{
+    box-sizing: border-box;
+    width: auto;
+    float: left;
+    height: 60px;
+    padding-bottom: 10px;
+}
+.footer-div-listitems1-1 img{
+    box-sizing: border-box;
+    width: auto;
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+
+.footer-div-listitems2 a{
+    display: inline-block;
+    color:grey;
+    text-align: center;
+    text-decoration: none;
+}
+.footer-div-listitems2 a:hover {
+
+    background-color:red;
+    font-weight: bold;
+    font-family: caveatbrush;
+    border-radius: 20px;
+    color: white;
+  }
+  .footer-div-listitems3{
+    color:grey;
+  }
+.footer-div-listitems4{
+    color:grey;
+  }
+.footer-div-listitems5{
+    color:grey;
+  }
+.footer-div-listitems6{
+    background-color:black;
+    height: 70px;
+    padding-left: 100px;
+    color: whitesmoke;
+    font-size: 14px;
+    padding-top:10px;
+    display: flex;
+}
+  
+ 
+.footer-div-listitems6-links
+  {
+    margin-left: 500px;
+    
+   
+  }
+
+.footer-div-listitems6-links a{
+    display: inline-block;
+    color:whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 14px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.footer-div-listitems6-links a:hover{
+    background-color:#133658;
+    color: white;
+    font-family: caveatbrush;
+    border-radius: 20px;
+    
+}
+/*
+-----------------------------------------------------
+        -------THIS IS FOOTER QURIES CSS-------
+-----------------------------------------------------
+*/
+
+@media (min-width: 50px) 
+{
+.footer-flexcontainer{
+  flex-direction: column;
+  color: aliceblue;
+}
+.footer-div-listitems6{
+  width:auto;
+}
+.footer-div-listitems6-links{
+  margin-left:1px;
+}
+
+.footer-div-listitems6-links a{
+  font-size: 10px;
+
+}
+.footer-div-listitems6 p{
+  font-size: 10px;
+
+}
+
+
+}
+@media (min-width: 600px) 
+{
+  
+  .footer-div-listitems6{
+    width:auto;
+    gap: 1%;
+}
+  .footer-div-listitems6-links{
+    margin-left:100px;
+  }
+  
+  .footer-div-listitems6-links a{
+    font-size: 14px;
+}
+.footer-flexcontainer{
+ 
+  flex-direction: row;
+  gap: 5%;
+  
+}
+#footer-1st-div{
+  font-size: 10px;
+}
+.footer-div-listitems2{
+  font-size: 10px;
+}
+.footer-div-listitems3{
+  font-size: 10px;
+}
+.footer-div-listitems4{
+  font-size: 10px;
+}
+.footer-div-listitems5{
+  font-size: 10px;
+}
+
+h1{
+  color: #133658;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+}
+
+h2{
+  font-size: 30px;
+  padding-left: 40%;
+  font-size: 14px;
+}
+.footer-div-listitems6 p{
+  font-size: 10px;
+}
+}
+@media (min-width: 768px) 
+{
+  .footer-div-listitems6 p{
+    font-size: 12px;
+  }
+  .footer-div-listitems6{
+    width:auto;
+    gap: 8%;
+}
+  .footer-div-listitems6-links{
+    margin-left:100px;
+  }
+  
+  .footer-div-listitems6-links a{
+    font-size: 14px;
+}
+
+h1{
+  color: #133658;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+}
+
+h2{
+  font-size: 30px;
+  padding-left: 40%;
+  font-size: 16px;
+}
+.footer-flexcontainer{
+  flex-direction: row;
+}
+.footer-div-listitems1{
+  display: flex;
+  margin-top: 50px;
+  color:grey;
+  padding-left: 50px;
+  }
+  #footer-1st-div{
+    font-size: 16px;
+  }
+  .footer-div-listitems2{
+    font-size: 16px;
+  }
+  .footer-div-listitems3{
+    font-size: 16px;
+  }
+  .footer-div-listitems4{
+    font-size: 16px;
+  }
+  .footer-div-listitems5{
+    font-size: 16px;
+  }
+}
+@media (min-width: 1050px) 
+{
+  .footer-div-listitems6 p{
+    font-size: 14px;
+  }
+  h1{
+    color: #133658;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+  }
+
+h2{
+    font-size: 30px;
+    padding-left: 40%;
+    font-size: 24px;
+}
+  .footer-flexcontainer{
+ 
+    box-sizing: border-box;
+    gap: 3%;
+}
+.footer-div-listitems6-links
+  {
+    margin-left: 300px;
+  }
+  .footer-div-listitems6-links a{
+    font-size: 16px;
+}
+.footer-div-listitems6{
+ 
+  width: auto;
+  gap: 5%;
+  
+}
+.footer-flexcontainer{
+  flex-direction: row;
+}
+.footer-div-listitems1{
+  display: flex;
+  margin-top: 50px;
+  color:grey;
+  padding-left: 50px;
+  }
+  
+}
+@media (min-width: 1280px) 
+{
+
+  h1{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+  }
+
+h2{
+    font-size: 30px;
+    padding-left: 40%;
+    font-size: 24px;
+}
+  .footer-flexcontainer{
+    gap: 5%;
+    flex-direction: row;
+}
+  .footer-div-listitems6-links
+  {
+    margin-left: 500px;
+    
+   
+  }
+  .footer-div-listitems6-links a{
+    font-size: 16px;
+}
+.footer-div-listitems6{
+  gap: 7%;
+  width: auto;
+}
+
+.footer-div-listitems1{
+  display: flex;
+  width: auto;
+  margin-top: 50px;
+  color:grey;
+  padding-left: 50px;
+  }
+}
+
+
+/*
+-----------------------------------------------------
+        -------THIS IS OTHER CSS-------
+-----------------------------------------------------
+*/
+
+
+
+
+  h1{
+    color: white;
+    font-family: creepste;
+  }
+
+h2{
+
+    font-size: 30px;
+    padding-left: 40%;
+}
+
+  
+
+
